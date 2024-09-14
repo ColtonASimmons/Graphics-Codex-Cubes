@@ -39,3 +39,5 @@ data-files\g3d-license.txt
 *.db
 *.opendb
 
+/data-files/g3d-license.txt
+/data-files/log.txt
