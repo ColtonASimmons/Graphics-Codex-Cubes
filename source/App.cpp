@@ -71,6 +71,8 @@ App::App(const GApp::Settings& settings) : GApp(settings) {
 // automatically caught.
 void App::onInit() {
     GApp::onInit();
+    
+    debugPrintf("Target frame rate = %f Hz\n", 1.0f / realTimeTargetDuration());
 
     setFrameDuration(1.0f / 240.0f);
 
