@@ -66,6 +66,8 @@ App::App(const GApp::Settings& settings) : GApp(settings) {
 }
 
 
+/** This function is called onInit and its super cool- documentation documentation documentation */
+
 // Called before the application loop begins.  Load data here and
 // not in the constructor so that common exceptions will be
 // automatically caught.
